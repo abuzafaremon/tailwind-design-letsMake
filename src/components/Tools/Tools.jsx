@@ -1,4 +1,5 @@
 import tool from '../../assets/images/room.png';
+import all from '../../assets/images/all.png';
 
 const Tools = () => {
   return (
@@ -6,6 +7,10 @@ const Tools = () => {
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div className="bg-white rounded-xl p-3 flex items-center gap-2">
           <img className='w-10' src={tool} alt="" />
+          <h3 className='font-medium'>Home</h3>
+        </div>
+        <div className="bg-white rounded-xl p-3 flex items-center gap-2">
+          <img className='w-10' src={all} alt="" />
           <h3 className='font-medium'>Office</h3>
         </div>
         <div className="bg-white rounded-xl p-3 flex items-center gap-2">
@@ -13,7 +18,7 @@ const Tools = () => {
           <h3 className='font-medium'>School</h3>
         </div>
         <div className="bg-white rounded-xl p-3 flex items-center gap-2">
-          <img className='w-10' src={tool} alt="" />
+          <img className='w-10' src={all} alt="" />
           <h3 className='font-medium'>Business</h3>
         </div>
         <div className="bg-white rounded-xl p-3 flex items-center gap-2">
